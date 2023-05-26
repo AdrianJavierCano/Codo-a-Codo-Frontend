@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/estilo.css">
+    <link rel="icon" type="image/png" href="./assets/img/diseno-grafico.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Adrian Cano Web Developer</title>
+</head>
+
+<body>
+    <!-- Seccion de inicio -->
+  
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                <h1 class="logo-header">凸(¬‿¬)凸</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">CAPACITACIONES</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos a mi portfolio</p>
+                <h2><span>Soy Adrian Cano</span>, Web Developer</h2>
+                <p class="descripcion">Entusiasta de la progrmacion, la ciberseguridad y la inteligencia artificial. </p>
+                <a href="#portfolio">Ir al Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION Sobremi -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="./assets/img/20141112_073444.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <h1 class="titulo-seccion">Sobre mi</h1>
+            <h2>Hola, Soy <span>Adrian Cano</span> </h2>
+            <h3>Web Developer</h3>
+            <p>Mi nombre es Adrian Cano, desarrollador web junior</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ducimus quas voluptatibus magnam rem! Officia voluptate nobis est molestiae laborum repellendus quas illo natus nisi placeat a laboriosam, recusandae ea.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident quo harum deleniti beatae eveniet asperiores, expedita totam voluptatibus. Est atque vitae ipsum commodi pariatur non earum! Rerum optio dicta est.</p>
+        </div>
+        
+    </section>
+    <hr>
+    <!-- Seccion Servicios -->
+    <section id="servicios">
+        <h1 class="titulo-seccion-servicio">MIS SERVICIOS</h1>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus rem illum sunt, asperiores!</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Porgramación Java</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Programacion Python</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Alojamiento de Sitios</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Seguridad informatica</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Data Science</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Habilidades -->
+    <div class="contenedor-skills" id="skills">
+        <h1>HABILIDADES </h1>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Python</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seccion Skills -->
+    <section id="portfolio">
+        <h1 class="titulo-seccion">Mis Proyectos</h1>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./assets/img/proyecto1.png" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./assets/img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./assets/img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./assets/img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+       
+        </div>
+
+
+    </section>
+
+
+    <!-- Ubicacion -->
+
+    <section id="ubicacion">
+        <div class = "contenedor-iframe">
+        <h1>DOMICILIO LABORAL</h1>
+        <p>Hospital Central Mendoza - Seccion Archivo de Historias Clinicas</p>
+        <p>Telefono de contacto: 2613855528</p>        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.2254594244287!2d-68.83544902514821!3d-32.89220676913972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093d3f14a8f3%3A0x8c1192830f2fe4ab!2sHospital%20Central!5e0!3m2!1ses-419!2sar!4v1685056918305!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section> -->
+
+        <!--Seccion API-->
+
+    <section id ="api">
+        <h1>VALOR CRIPTOMONEDAS</h1>
+        <div class="contenedor-api">
+           
+            <div class="coin-price">
+                <div class="logo"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEi32rDKQR2Swi7YfHjDzyZUBGEmxTz77OClnm24SZl7kWuls7fsVCIfAObY_JRJIReQnBWZIPSVfDLSqDvqeu4CCXCoNQIoUGK-OSDUGMtDJFxh9vmU6WGajIgXH4CsR_-sXU0qWbyJTJl7N0BSTB8HcAGSpCJ54G1daZPnU6h2oANo2CTGsbHCoaGJHQ" ></div>
+                <div>
+                    <h2>$<span id="bitcoin"></span></h2>
+                    <h2>Bitcoin</h2>
+                </div>
+            </div>
+            <div class="coin-price">
+                <div class="logo"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEhrUFoHC68rLHQYMV41awqGtoeU6qI-CkSVmcYK-KBCrOvL-jzwLOx8pN-5B8aALsHh1Zc9mmDm8LVQSSpdpsw0v6vrJsv4r9_lv0ic5aYbogc3i3h9mG6ZGMc7g9_cGSRh_soaKmXtpMEOxBFIsmiTa_wticu9T07MbqQ42J9NwowHp8tn8OUIBlhjqA" ></div>
+                <div>
+                    <h2>$<span id="litecoin"></span></h2>
+                    <h2>Litecoin</h2>
+                </div>
+            </div>
+           
+            <div class="coin-price">
+                <div class="logo"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEgfcodOJm7ZIXw2kiqdo5abN4cUvFYgyqpKt91zHI8710ltPK5Ny_S5X93w9LSDsF5jW61frn3C8a_8w2GXu4bf0clzxuJljoQ8n6az5EI5zQOcl5W2LScP-1-41NQwPW5A3JWT9EwejtOnHsd3q2-llUsJJQ3Z74v_2FOPn0TrI2529NS9_hmFbvModw" ></div>
+                <div>
+                    <h2>$<span id="ethereum"></span></h2>
+                    <h2>Ethereum</h2>
+                </div>
+            </div>
+            <div class="coin-price">
+                <div class="logo"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEj9YzGIFUSMpRoWE4IjGl_o2zpdPkvtUS6jzIgZWEWl7ztYyV20oXu80A52v0R_nXpt_qXVBzxnfse2_pfeIbVHwQSR3oLqqAyMqVqnzJpdbSCBHA2b_zlheiLY3Bb0PYCEXQny7q-FnGE01ZtxVFVC8DbLWW-ZC1PC-gaqL7IC7ZfRxFOZufcv8lcY1g" ></div>
+                <div>
+                    <h2>$<span id="dogecoin"></span></h2>
+                    <h2>Dogecoin</h2>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <!-- Seccion Contacto -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contacto</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad" id ="nombre">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad" id ="email">
+                </div>
+                <div class="fila">
+                    <input type="text" id ="tema" placeholder="Tema..." maxlenght="4" class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="textarea" id="text-area" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar" id ="boton">
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Seccion Footer -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
